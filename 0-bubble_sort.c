@@ -9,7 +9,7 @@ void swpints(int *a, int *b)
 {
 	int tmps;
 
-	tmps= *a;
+	tmps = *a;
 	*a = *b;
 	*b = tmps;
 }
